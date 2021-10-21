@@ -31,4 +31,4 @@ exports.detectEvilUsers = functions.firestore
             await userRef.set({ msgCount: (userData.msgCount || 0) + 1 })
         }
 
-});
+}); 
